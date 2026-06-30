@@ -1,0 +1,13 @@
+{
+  "name": "vibe2blog",
+  "owner": {
+    "name": "danniel"
+  },
+  "plugins": [
+    {
+      "name": "vibe2blog",
+      "source": "./",
+      "description": "把开发过程写成少 AI 味的中文技术随笔。blog + humanize 两个 skill。"
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "name": "vibe2blog",
+  "version": "0.1.0",
+  "description": "把 agent 开发/重构过程写成聚焦单一主题、少 AI 味的中文技术随笔,按日期归档到 .blog/。含 blog 与 humanize 两个 skill。",
+  "author": {
+    "name": "danniel"
+  },
+  "license": "MIT",
+  "keywords": [
+    "blog",
+    "writing",
+    "humanize",
+    "chinese",
+    "developer-notes"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Vibe2blog",
+    "shortDescription": "把开发过程沉淀成中文技术随笔",
+    "longDescription": "Vibe2blog 提供 blog 与 humanize 两个 skill:blog 负责定题、采集、成稿与归档;humanize 负责中文文本去 AI 味审查改写。默认把成稿按日期写入仓库 .blog/。",
+    "developerName": "danniel",
+    "category": "Productivity",
+    "capabilities": [
+      "Write",
+      "Interactive"
+    ],
+    "defaultPrompt": [
+      "把这次重构记一篇博客",
+      "写篇博客讲刚才这个实现取舍",
+      "帮这段中文去一下 AI 味"
+    ],
+    "brandColor": "#2563EB"
+  }
+}

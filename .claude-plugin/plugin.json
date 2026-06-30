@@ -1,0 +1,8 @@
+{
+  "name": "vibe2blog",
+  "version": "0.1.0",
+  "description": "把 agent 开发/重构过程写成聚焦单一主题、少 AI 味的中文技术随笔,按日期归档到 .blog/。含 blog(写作主流程)与 humanize(去 AI 味)两个 skill。",
+  "author": {
+    "name": "danniel"
+  }
+}
